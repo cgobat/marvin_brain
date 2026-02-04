@@ -4,7 +4,7 @@ import datetime
 import numpy as np
 import json
 import yaml
-from pkg_resources import parse_version
+from packaging.version import parse as parse_version
 from brain.core.exceptions import BrainError, BrainWarning
 from hashlib import md5
 from passlib.apache import HtpasswdFile
